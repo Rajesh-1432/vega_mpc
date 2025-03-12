@@ -1,0 +1,5 @@
+.env
+faiss*
+cache/*
+pandasai.log
+bun.lock
