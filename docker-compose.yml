@@ -4,13 +4,13 @@ services:
   backend:
     build:
       context: ./pdfchat
-    container_name: chatui_backend
+    container_name: vega_backend
     ports:
       - 8503:8503
 
   frontend:
     build:
       context: ./chatbot_ui
-    container_name: chatui_frontend
+    container_name: vega_frontend
     ports:
       - 3001:3001
